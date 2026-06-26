@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.venv/
+.npm-cache/
+release/
+artifacts/
+design-qa.md
+__pycache__/
+*.pyc
+.env
+data/*.db
+data/*.db-*
+!data/hotspots.db
+.DS_Store

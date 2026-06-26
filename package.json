@@ -1,0 +1,26 @@
+{
+  "name": "world-city-hotspot-monitor",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "build:pages": "vite build --base=./",
+    "export:demo": "python3 scripts/export_demo_data.py",
+    "package:local": "python3 scripts/package_local.py",
+    "preview": "vite preview --host 127.0.0.1",
+    "backend": "python -m uvicorn backend.app:app --host 127.0.0.1 --port 8000",
+    "serve": "npm run build && python -m uvicorn backend.app:app --host 127.0.0.1 --port 8000",
+    "test:smoke": ".venv/bin/python scripts/smoke_test.py",
+    "test:stability": ".venv/bin/python scripts/stability_test.py"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "5.0.4",
+    "lucide-react": "0.468.0",
+    "vite": "6.4.2",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {}
+}

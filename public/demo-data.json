@@ -1,0 +1,1548 @@
+{
+  "generated_at": "2026-06-26T03:29:12Z",
+  "dashboard": {
+    "report": {
+      "report_date": "2026-06-26",
+      "status": "published",
+      "total_articles": 8,
+      "total_hotspots": 7,
+      "published_at": "2026-06-26T03:26:52Z",
+      "coverage": {
+        "品牌官网": 1,
+        "互联网搜索": 1,
+        "社媒公开页": 1,
+        "公开资讯平台": 2,
+        "融资动态": 1,
+        "国际媒体": 1
+      },
+      "insights": [
+        {
+          "name": "国内新兴品牌",
+          "count": 2,
+          "summary": "国内新锐品牌、国货品牌和区域首店信号更集中，适合优先进入招商跟踪池。"
+        },
+        {
+          "name": "新消费爆款",
+          "count": 2,
+          "summary": "今天爆款信号集中在年轻客群、社媒传播和排队抢购。"
+        },
+        {
+          "name": "线下扩张",
+          "count": 2,
+          "summary": "多条线索体现门店拓展，适合招商团队跟进位置需求。"
+        },
+        {
+          "name": "国际新兴品牌",
+          "count": 1,
+          "summary": "国际品牌与海外首店可作为差异化招商线索。"
+        }
+      ],
+      "briefing": {
+        "report_title": "2026-06-25 招商日报",
+        "report_date": "2026-06-26",
+        "coverage_date": "2026-06-25",
+        "generated_at": "2026-06-26T03:26:52Z",
+        "verification_status": "规则审核通过",
+        "accuracy_score": 82,
+        "top_takeaways": [
+          {
+            "label": "最值得跟进",
+            "text": "ScentLab出现国内新兴品牌信号，建议结合原文核查门店模型和合作窗口。",
+            "hotspot_ids": [
+              83
+            ]
+          },
+          {
+            "label": "爆火新品牌",
+            "text": "ScentLab出现国内新兴品牌信号，建议结合原文核查门店模型和合作窗口。",
+            "hotspot_ids": [
+              83
+            ]
+          },
+          {
+            "label": "招商机会",
+            "text": "酥山出现国内新兴品牌信号，建议结合原文核查门店模型和合作窗口。",
+            "hotspot_ids": [
+              84
+            ]
+          }
+        ],
+        "breakout_brands": [
+          {
+            "hotspot_id": 83,
+            "brand_name": "ScentLab",
+            "signal": "国内新兴品牌",
+            "why_now": "ScentLab首店开业三日销售突破百万，年轻客群占比超过70%",
+            "leasing_angle": "零售集合方向出现国内新兴品牌信号，建议优先核查门店模型、社媒热度和武汉/华中首进可能性。",
+            "evidence": "ScentLab首店开业三日销售突破百万，年轻客群占比超过70%",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/scentlab-opening",
+            "score": 96
+          },
+          {
+            "hotspot_id": 84,
+            "brand_name": "酥山",
+            "signal": "国内新兴品牌",
+            "why_now": "国内新锐烘焙品牌酥山武汉首店开业，开业周末多款产品连续售罄",
+            "leasing_angle": "饮品甜品方向出现国内新兴品牌信号，建议优先核查门店模型、社媒热度和武汉/华中首进可能性。",
+            "evidence": "国内新锐烘焙品牌酥山武汉首店开业，开业周末多款产品连续售罄",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/sushan-wuhan-first-store",
+            "score": 96
+          },
+          {
+            "hotspot_id": 85,
+            "brand_name": "TOYCITY",
+            "signal": "新消费爆款",
+            "why_now": "TOYCITY与LABUBU推出联名盲盒后，多平台出现抢购，部分款式二级市场溢价达到3-5倍",
+            "leasing_angle": "潮玩文创方向出现增长信号，建议跟踪品牌拓店意愿、坪效模型和客群匹配度。",
+            "evidence": "TOYCITY与LABUBU推出联名盲盒后，多平台出现抢购，部分款式二级市场溢价达到3-5倍",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/toycity-labubu",
+            "score": 89
+          },
+          {
+            "hotspot_id": 86,
+            "brand_name": "爷爷不泡茶",
+            "signal": "新消费爆款",
+            "why_now": "爷爷不泡茶海外首店落地新加坡，首日排队超过300米",
+            "leasing_angle": "饮品甜品方向出现增长信号，建议跟踪品牌拓店意愿、坪效模型和客群匹配度。",
+            "evidence": "爷爷不泡茶海外首店落地新加坡，首日排队超过300米",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/grandpa-tea-singapore",
+            "score": 86
+          }
+        ],
+        "key_news": [
+          {
+            "hotspot_id": 83,
+            "title": "香氛集合品牌「ScentLab」首店开业三日销售破百万，年轻客群占比超70%",
+            "summary": "ScentLab首店开业三日销售突破百万，年轻客群占比超过70%",
+            "implication": "零售集合方向出现国内新兴品牌信号，建议优先核查门店模型、社媒热度和武汉/华中首进可能性。",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/scentlab-opening",
+            "tags": [
+              "零售集合",
+              "国内新兴品牌",
+              "国内新兴",
+              "适合线下关注"
+            ]
+          },
+          {
+            "hotspot_id": 84,
+            "title": "国内新锐烘焙品牌「酥山」武汉首店开业，开业周末连续售罄",
+            "summary": "国内新锐烘焙品牌酥山武汉首店开业，开业周末多款产品连续售罄",
+            "implication": "饮品甜品方向出现国内新兴品牌信号，建议优先核查门店模型、社媒热度和武汉/华中首进可能性。",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/sushan-wuhan-first-store",
+            "tags": [
+              "饮品甜品",
+              "国内新兴品牌",
+              "国内新兴",
+              "适合线下关注"
+            ]
+          },
+          {
+            "hotspot_id": 85,
+            "title": "潮玩品牌「TOYCITY」联名LABUBU系列盲盒引发多平台抢购",
+            "summary": "TOYCITY与LABUBU推出联名盲盒后，多平台出现抢购，部分款式二级市场溢价达到3-5倍",
+            "implication": "潮玩文创方向出现增长信号，建议跟踪品牌拓店意愿、坪效模型和客群匹配度。",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/toycity-labubu",
+            "tags": [
+              "潮玩文创",
+              "新消费爆款"
+            ]
+          },
+          {
+            "hotspot_id": 86,
+            "title": "茶饮品牌「爷爷不泡茶」海外首店落地新加坡，首日排队超过300米",
+            "summary": "爷爷不泡茶海外首店落地新加坡，首日排队超过300米",
+            "implication": "饮品甜品方向出现增长信号，建议跟踪品牌拓店意愿、坪效模型和客群匹配度。",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/grandpa-tea-singapore",
+            "tags": [
+              "饮品甜品",
+              "新消费爆款",
+              "国际参考",
+              "适合线下关注"
+            ]
+          },
+          {
+            "hotspot_id": 87,
+            "title": "健康轻食品牌「KeepFit Kitchen」完成近亿元B轮融资，将加码线下门店",
+            "summary": "KeepFit Kitchen完成近亿元人民币B轮融资，将用于产品研发、供应链升级和线下门店扩张",
+            "implication": "饮品甜品方向已有购物中心场景信号，建议进入招商备选清单并核查门店模型。",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/keepfit-funding",
+            "tags": [
+              "饮品甜品",
+              "线下扩张",
+              "适合线下关注"
+            ]
+          },
+          {
+            "hotspot_id": 88,
+            "title": "甜品品牌「Sachertorte」完成千万欧元A轮融资，计划进入亚洲购物中心",
+            "summary": "Sachertorte完成千万欧元A轮融资，投资方看好其精品甜品和门店模型",
+            "implication": "具备国际参考价值，可用于寻找差异化首店、快闪或区域首进合作机会。",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/sachertorte-funding",
+            "tags": [
+              "饮品甜品",
+              "国际新兴品牌",
+              "适合线下关注"
+            ]
+          },
+          {
+            "hotspot_id": 89,
+            "title": "咖啡烘焙品牌「野人先生」完成新一轮融资，加速供应链建设",
+            "summary": "野人先生完成新一轮融资，将用于烘焙工厂和门店后厨建设",
+            "implication": "饮品甜品方向已有购物中心场景信号，建议进入招商备选清单并核查门店模型。",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/wildman-coffee",
+            "tags": [
+              "饮品甜品",
+              "线下扩张",
+              "适合线下关注"
+            ]
+          }
+        ],
+        "leasing_actions": [
+          {
+            "priority": "P0",
+            "action": "优先核查榜首品牌的开店模型和区域首进窗口",
+            "reason": "ScentLab当前招商价值和爆款潜力综合靠前。",
+            "hotspot_ids": [
+              83
+            ]
+          },
+          {
+            "priority": "P1",
+            "action": "把爆火新兴品牌加入本周招商短名单",
+            "reason": "这些品牌具备社媒扩散、新店/首店或排队售罄等短期机会信号。",
+            "hotspot_ids": [
+              83,
+              84,
+              85,
+              86
+            ]
+          }
+        ],
+        "risk_notes": [
+          "所有结论仅基于已抓取公开资讯和原文证据，招商跟进前仍需二次核查品牌官方开店计划。",
+          "社媒爆火、排队和售罄类信号存在短周期波动，建议结合近7天复现度判断。"
+        ],
+        "agent_trace": [
+          "fact_curator:rules",
+          "report_writer:rules",
+          "verifier:rules"
+        ],
+        "total_articles": 8,
+        "total_hotspots": 7,
+        "verification_notes": []
+      }
+    },
+    "hotspots": [
+      {
+        "id": 83,
+        "report_date": "2026-06-26",
+        "article_id": 7,
+        "title": "香氛集合品牌「ScentLab」首店开业三日销售破百万，年轻客群占比超70%",
+        "brand_name": "ScentLab",
+        "category": "零售集合",
+        "signal_type": "国内新兴品牌",
+        "regions": "全国/国际",
+        "source_name": "样例信源",
+        "source_type": "品牌官网",
+        "source_url": "https://www.example.com/sample/scentlab-opening",
+        "published_at": "2026-06-25T14:30:00+08:00",
+        "ai_summary": "ScentLab首店开业三日销售突破百万，年轻客群占比超过70%",
+        "leasing_insight": "零售集合方向出现国内新兴品牌信号，建议优先核查门店模型、社媒热度和武汉/华中首进可能性。",
+        "confidence": 80,
+        "relevance": 94,
+        "opportunity_score": 96,
+        "breakout_score": 98,
+        "created_at": "2026-06-26T03:26:52Z",
+        "date_status": "verified",
+        "tags": [
+          "零售集合",
+          "国内新兴品牌",
+          "国内新兴",
+          "适合线下关注"
+        ],
+        "evidence": [
+          "ScentLab首店开业三日销售突破百万，年轻客群占比超过70%",
+          "品牌主打原创香氛、香水实验室和体验式零售，计划在全国核心购物中心拓展旗舰店和快闪店"
+        ],
+        "source_links": [
+          {
+            "source_name": "样例信源",
+            "source_type": "品牌官网",
+            "source_url": "https://www.example.com/sample/scentlab-opening",
+            "published_at": "2026-06-25T14:30:00+08:00",
+            "date_status": "verified"
+          }
+        ]
+      },
+      {
+        "id": 84,
+        "report_date": "2026-06-26",
+        "article_id": 81,
+        "title": "国内新锐烘焙品牌「酥山」武汉首店开业，开业周末连续售罄",
+        "brand_name": "酥山",
+        "category": "饮品甜品",
+        "signal_type": "国内新兴品牌",
+        "regions": "全国/国际",
+        "source_name": "样例信源",
+        "source_type": "互联网搜索",
+        "source_url": "https://www.example.com/sample/sushan-wuhan-first-store",
+        "published_at": "2026-06-25T13:30:00+08:00",
+        "ai_summary": "国内新锐烘焙品牌酥山武汉首店开业，开业周末多款产品连续售罄",
+        "leasing_insight": "饮品甜品方向出现国内新兴品牌信号，建议优先核查门店模型、社媒热度和武汉/华中首进可能性。",
+        "confidence": 72,
+        "relevance": 92,
+        "opportunity_score": 96,
+        "breakout_score": 98,
+        "created_at": "2026-06-26T03:26:52Z",
+        "date_status": "verified",
+        "tags": [
+          "饮品甜品",
+          "国内新兴品牌",
+          "国内新兴",
+          "适合线下关注"
+        ],
+        "evidence": [
+          "国内新锐烘焙品牌酥山武汉首店开业，开业周末多款产品连续售罄",
+          "品牌主打国潮点心、现烤体验和年轻化包装，此前已在杭州、成都开出小体量门店，正在寻找核心购物中心和街区商业点位"
+        ],
+        "source_links": [
+          {
+            "source_name": "样例信源",
+            "source_type": "互联网搜索",
+            "source_url": "https://www.example.com/sample/sushan-wuhan-first-store",
+            "published_at": "2026-06-25T13:30:00+08:00",
+            "date_status": "verified"
+          }
+        ]
+      },
+      {
+        "id": 85,
+        "report_date": "2026-06-26",
+        "article_id": 4,
+        "title": "潮玩品牌「TOYCITY」联名LABUBU系列盲盒引发多平台抢购",
+        "brand_name": "TOYCITY",
+        "category": "潮玩文创",
+        "signal_type": "新消费爆款",
+        "regions": "全国/国际",
+        "source_name": "样例信源",
+        "source_type": "社媒公开页",
+        "source_url": "https://www.example.com/sample/toycity-labubu",
+        "published_at": "2026-06-25T17:30:00+08:00",
+        "ai_summary": "TOYCITY与LABUBU推出联名盲盒后，多平台出现抢购，部分款式二级市场溢价达到3-5倍",
+        "leasing_insight": "潮玩文创方向出现增长信号，建议跟踪品牌拓店意愿、坪效模型和客群匹配度。",
+        "confidence": 72,
+        "relevance": 87,
+        "opportunity_score": 89,
+        "breakout_score": 93,
+        "created_at": "2026-06-26T03:26:52Z",
+        "date_status": "verified",
+        "tags": [
+          "潮玩文创",
+          "新消费爆款"
+        ],
+        "evidence": [
+          "TOYCITY与LABUBU推出联名盲盒后，多平台出现抢购，部分款式二级市场溢价达到3-5倍",
+          "品牌计划在核心城市继续做线下快闪和集合店合作"
+        ],
+        "source_links": [
+          {
+            "source_name": "样例信源",
+            "source_type": "社媒公开页",
+            "source_url": "https://www.example.com/sample/toycity-labubu",
+            "published_at": "2026-06-25T17:30:00+08:00",
+            "date_status": "verified"
+          }
+        ]
+      },
+      {
+        "id": 86,
+        "report_date": "2026-06-26",
+        "article_id": 1,
+        "title": "茶饮品牌「爷爷不泡茶」海外首店落地新加坡，首日排队超过300米",
+        "brand_name": "爷爷不泡茶",
+        "category": "饮品甜品",
+        "signal_type": "新消费爆款",
+        "regions": "全国/国际",
+        "source_name": "样例信源",
+        "source_type": "公开资讯平台",
+        "source_url": "https://www.example.com/sample/grandpa-tea-singapore",
+        "published_at": "2026-06-25T20:30:00+08:00",
+        "ai_summary": "爷爷不泡茶海外首店落地新加坡，首日排队超过300米",
+        "leasing_insight": "饮品甜品方向出现增长信号，建议跟踪品牌拓店意愿、坪效模型和客群匹配度。",
+        "confidence": 72,
+        "relevance": 85,
+        "opportunity_score": 86,
+        "breakout_score": 90,
+        "created_at": "2026-06-26T03:26:52Z",
+        "date_status": "verified",
+        "tags": [
+          "饮品甜品",
+          "新消费爆款",
+          "国际参考",
+          "适合线下关注"
+        ],
+        "evidence": [
+          "爷爷不泡茶海外首店落地新加坡，首日排队超过300米",
+          "门店位于核心商圈，产品以东方茶饮和地域文化表达为主，社交平台出现大量打卡内容",
+          "品牌近年在国内多城加速开店，具备持续拓店和年轻客群吸引力"
+        ],
+        "source_links": [
+          {
+            "source_name": "样例信源",
+            "source_type": "公开资讯平台",
+            "source_url": "https://www.example.com/sample/grandpa-tea-singapore",
+            "published_at": "2026-06-25T20:30:00+08:00",
+            "date_status": "verified"
+          }
+        ]
+      },
+      {
+        "id": 87,
+        "report_date": "2026-06-26",
+        "article_id": 5,
+        "title": "健康轻食品牌「KeepFit Kitchen」完成近亿元B轮融资，将加码线下门店",
+        "brand_name": "KeepFit Kitchen",
+        "category": "饮品甜品",
+        "signal_type": "线下扩张",
+        "regions": "全国/国际",
+        "source_name": "样例信源",
+        "source_type": "融资动态",
+        "source_url": "https://www.example.com/sample/keepfit-funding",
+        "published_at": "2026-06-25T16:30:00+08:00",
+        "ai_summary": "KeepFit Kitchen完成近亿元人民币B轮融资，将用于产品研发、供应链升级和线下门店扩张",
+        "leasing_insight": "饮品甜品方向已有购物中心场景信号，建议进入招商备选清单并核查门店模型。",
+        "confidence": 72,
+        "relevance": 83,
+        "opportunity_score": 84,
+        "breakout_score": 88,
+        "created_at": "2026-06-26T03:26:52Z",
+        "date_status": "verified",
+        "tags": [
+          "饮品甜品",
+          "线下扩张",
+          "适合线下关注"
+        ],
+        "evidence": [
+          "KeepFit Kitchen完成近亿元人民币B轮融资，将用于产品研发、供应链升级和线下门店扩张",
+          "品牌主打低卡轻食和运动人群餐饮场景，适合办公商业和生活方式型购物中心"
+        ],
+        "source_links": [
+          {
+            "source_name": "样例信源",
+            "source_type": "融资动态",
+            "source_url": "https://www.example.com/sample/keepfit-funding",
+            "published_at": "2026-06-25T16:30:00+08:00",
+            "date_status": "verified"
+          }
+        ]
+      },
+      {
+        "id": 88,
+        "report_date": "2026-06-26",
+        "article_id": 2,
+        "title": "甜品品牌「Sachertorte」完成千万欧元A轮融资，计划进入亚洲购物中心",
+        "brand_name": "Sachertorte",
+        "category": "饮品甜品",
+        "signal_type": "国际新兴品牌",
+        "regions": "全国/国际",
+        "source_name": "样例信源",
+        "source_type": "国际媒体",
+        "source_url": "https://www.example.com/sample/sachertorte-funding",
+        "published_at": "2026-06-25T19:30:00+08:00",
+        "ai_summary": "Sachertorte完成千万欧元A轮融资，投资方看好其精品甜品和门店模型",
+        "leasing_insight": "具备国际参考价值，可用于寻找差异化首店、快闪或区域首进合作机会。",
+        "confidence": 80,
+        "relevance": 79,
+        "opportunity_score": 77,
+        "breakout_score": 81,
+        "created_at": "2026-06-26T03:26:52Z",
+        "date_status": "verified",
+        "tags": [
+          "饮品甜品",
+          "国际新兴品牌",
+          "适合线下关注"
+        ],
+        "evidence": [
+          "Sachertorte完成千万欧元A轮融资，投资方看好其精品甜品和门店模型",
+          "品牌计划未来两年在亚洲开设50家门店，重点进入购物中心和高势能商圈"
+        ],
+        "source_links": [
+          {
+            "source_name": "样例信源",
+            "source_type": "国际媒体",
+            "source_url": "https://www.example.com/sample/sachertorte-funding",
+            "published_at": "2026-06-25T19:30:00+08:00",
+            "date_status": "verified"
+          }
+        ]
+      },
+      {
+        "id": 89,
+        "report_date": "2026-06-26",
+        "article_id": 6,
+        "title": "咖啡烘焙品牌「野人先生」完成新一轮融资，加速供应链建设",
+        "brand_name": "野人先生",
+        "category": "饮品甜品",
+        "signal_type": "线下扩张",
+        "regions": "全国/国际",
+        "source_name": "样例信源",
+        "source_type": "公开资讯平台",
+        "source_url": "https://www.example.com/sample/wildman-coffee",
+        "published_at": "2026-06-25T15:30:00+08:00",
+        "ai_summary": "野人先生完成新一轮融资，将用于烘焙工厂和门店后厨建设",
+        "leasing_insight": "饮品甜品方向已有购物中心场景信号，建议进入招商备选清单并核查门店模型。",
+        "confidence": 72,
+        "relevance": 77,
+        "opportunity_score": 77,
+        "breakout_score": 81,
+        "created_at": "2026-06-26T03:26:52Z",
+        "date_status": "verified",
+        "tags": [
+          "饮品甜品",
+          "线下扩张",
+          "适合线下关注"
+        ],
+        "evidence": [
+          "野人先生完成新一轮融资，将用于烘焙工厂和门店后厨建设",
+          "品牌以精品咖啡和现烤烘焙结合为特色，近期在多个城市开出购物中心门店"
+        ],
+        "source_links": [
+          {
+            "source_name": "样例信源",
+            "source_type": "公开资讯平台",
+            "source_url": "https://www.example.com/sample/wildman-coffee",
+            "published_at": "2026-06-25T15:30:00+08:00",
+            "date_status": "verified"
+          }
+        ]
+      }
+    ],
+    "jobs": [
+      {
+        "id": 24,
+        "job_type": "daily_hotspot_update",
+        "status": "success",
+        "trigger": "demo_seed",
+        "started_at": "2026-06-26T03:26:52Z",
+        "finished_at": "2026-06-26T03:26:52Z",
+        "logs": [
+          "任务启动：demo_seed",
+          "资讯覆盖日期：2026-06-25",
+          "本次按 SOURCE_NAME_FILTER 仅运行 0 个信源：__no_live_sources__",
+          "未抓到可用公开资讯，已使用内置样例数据跑通今日流程",
+          "日期闸门：去重后 8 条，排除非覆盖日期 0 条，日期待核验 0 条，未进主榜 0 条",
+          "AI 评估：精读 8 条，规则/回退 8 条，同品牌聚合 0 条，多来源热点 0 条",
+          "日报发布完成：2026-06-26，入选热点 7 条"
+        ],
+        "counters": {
+          "sources": 0,
+          "articles_found": 8,
+          "articles_saved": 8,
+          "hotspots": 7,
+          "sample_used": true,
+          "articles_before_date_gate": 8,
+          "articles_out_of_window": 0,
+          "articles_date_unverified": 0,
+          "articles_date_unverified_suppressed": 0,
+          "hotspots_aggregated": 0,
+          "multi_source_hotspots": 0,
+          "ai_evaluated": 8,
+          "ai_rule_fallbacks": 8
+        }
+      },
+      {
+        "id": 23,
+        "job_type": "daily_hotspot_update",
+        "status": "success",
+        "trigger": "manual_sync",
+        "started_at": "2026-06-26T00:18:32Z",
+        "finished_at": "2026-06-26T00:23:28Z",
+        "logs": [
+          "任务启动：manual_sync",
+          "资讯覆盖日期：2026-06-25",
+          "赢商网 发现 6 条候选资讯，用时 1.6s",
+          "Foodaily 发现 5 条候选资讯，用时 4.7s",
+          "品牌星球 发现 5 条候选资讯，用时 3.8s",
+          "Google News 新消费品牌搜索 发现 5 条候选资讯，用时 13.5s",
+          "互联网搜索：国内新兴品牌 未发现搜索 API Key，使用 Google News RSS 关键词搜索兜底",
+          "互联网搜索：国内新兴品牌 搜索结果处理达到耗时预算 45s，提前停止",
+          "互联网搜索：国内新兴品牌 搜索达到耗时预算 45s，提前停止",
+          "互联网搜索：国内新兴品牌 发现 18 条候选资讯，用时 45.5s",
+          "红餐网 发现 6 条候选资讯，用时 4.3s",
+          "FBIF 食品饮料创新 发现 3 条候选资讯，用时 1.9s",
+          "饮品报 发现 5 条候选资讯，用时 16.0s",
+          "中购联 首页读取失败：[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1129)",
+          "RET 睿意德 发现 6 条候选资讯，用时 3.2s",
+          "壹览商业 首页读取失败：[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1129)",
+          "消费界 首页读取失败：Server error '502 Bad Gateway' for url 'https://www.eeeck.com/news/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502",
+          "Google News 武汉首店新店 发现 6 条候选资讯，用时 15.1s",
+          "Google News 茶饮咖啡 发现 5 条候选资讯，用时 13.5s",
+          "Google News 购物中心品牌入驻 发现 6 条候选资讯，用时 16.7s",
+          "Google News 消费品牌融资 发现 6 条候选资讯，用时 13.5s",
+          "互联网搜索：武汉光谷新店 未发现搜索 API Key，使用 Google News RSS 关键词搜索兜底",
+          "互联网搜索：武汉光谷新店 搜索结果处理达到耗时预算 45s，提前停止",
+          "互联网搜索：武汉光谷新店 发现 18 条候选资讯，用时 45.4s",
+          "互联网搜索：茶饮咖啡烘焙新品牌 未发现搜索 API Key，使用 Google News RSS 关键词搜索兜底",
+          "互联网搜索：茶饮咖啡烘焙新品牌 搜索结果处理达到耗时预算 45s，提前停止",
+          "互联网搜索：茶饮咖啡烘焙新品牌 发现 19 条候选资讯，用时 45.5s",
+          "互联网搜索：零售生活方式新品牌 未发现搜索 API Key，使用 Google News RSS 关键词搜索兜底",
+          "互联网搜索：零售生活方式新品牌 搜索结果处理达到耗时预算 45s，提前停止",
+          "互联网搜索：零售生活方式新品牌 搜索达到耗时预算 45s，提前停止",
+          "互联网搜索：零售生活方式新品牌 发现 16 条候选资讯，用时 45.2s",
+          "日期过滤完成：覆盖 2026-06-25，排除非覆盖日期 93 条，保留日期待核验 36 条",
+          "AI 精读前 16 条高信号资讯，其余候选留待后续批次",
+          "日期闸门：去重后 132 条，排除非覆盖日期 93 条，日期待核验 36 条，未进主榜 16 条",
+          "AI 评估：精读 0 条，规则/回退 0 条，同品牌聚合 0 条，多来源热点 0 条",
+          "日报发布完成：2026-06-26，入选热点 0 条"
+        ],
+        "counters": {
+          "sources": 24,
+          "articles_found": 39,
+          "articles_saved": 16,
+          "hotspots": 0,
+          "sample_used": false,
+          "articles_before_date_gate": 132,
+          "articles_out_of_window": 93,
+          "articles_date_unverified": 36,
+          "articles_date_unverified_suppressed": 16,
+          "hotspots_aggregated": 0,
+          "multi_source_hotspots": 0,
+          "ai_evaluated": 0,
+          "ai_rule_fallbacks": 0
+        }
+      },
+      {
+        "id": 22,
+        "job_type": "daily_hotspot_update",
+        "status": "success",
+        "trigger": "manual_sync",
+        "started_at": "2026-06-25T16:21:37Z",
+        "finished_at": "2026-06-25T16:31:03Z",
+        "logs": [
+          "任务启动：manual_sync",
+          "资讯覆盖日期：2026-06-25",
+          "赢商网 发现 6 条候选资讯，用时 0.8s",
+          "Foodaily 发现 5 条候选资讯，用时 1.2s",
+          "品牌星球 发现 4 条候选资讯，用时 4.7s",
+          "Google News 新消费品牌搜索 发现 5 条候选资讯，用时 19.2s",
+          "互联网搜索：国内新兴品牌 未发现搜索 API Key，使用 Google News RSS 关键词搜索兜底",
+          "互联网搜索：国内新兴品牌 搜索结果处理达到耗时预算 45s，提前停止",
+          "互联网搜索：国内新兴品牌 搜索达到耗时预算 45s，提前停止",
+          "互联网搜索：国内新兴品牌 发现 17 条候选资讯，用时 45.1s",
+          "日期过滤完成：覆盖 2026-06-25，排除非覆盖日期 21 条，保留日期待核验 15 条",
+          "日期闸门：去重后 37 条，排除非覆盖日期 21 条，日期待核验 15 条",
+          "AI 评估：精读 16 条，规则/回退 1 条",
+          "日报发布完成：2026-06-26，入选热点 7 条"
+        ],
+        "counters": {
+          "sources": 6,
+          "articles_found": 16,
+          "articles_saved": 16,
+          "hotspots": 7,
+          "sample_used": false,
+          "articles_before_date_gate": 37,
+          "articles_out_of_window": 21,
+          "articles_date_unverified": 15,
+          "ai_evaluated": 16,
+          "ai_rule_fallbacks": 1
+        }
+      },
+      {
+        "id": 21,
+        "job_type": "daily_hotspot_update",
+        "status": "success",
+        "trigger": "manual_sync",
+        "started_at": "2026-06-25T15:34:13Z",
+        "finished_at": "2026-06-25T15:44:18Z",
+        "logs": [
+          "任务启动：manual_sync",
+          "资讯覆盖日期：2026-06-24",
+          "赢商网 发现 6 条候选资讯，用时 1.0s",
+          "Foodaily 发现 5 条候选资讯，用时 1.3s",
+          "品牌星球 发现 4 条候选资讯，用时 4.0s",
+          "Google News 新消费品牌搜索 发现 5 条候选资讯，用时 12.9s",
+          "互联网搜索：国内新兴品牌 未发现搜索 API Key，使用 Google News RSS 关键词搜索兜底",
+          "互联网搜索：国内新兴品牌 搜索结果处理达到耗时预算 45s，提前停止",
+          "互联网搜索：国内新兴品牌 搜索达到耗时预算 45s，提前停止",
+          "互联网搜索：国内新兴品牌 发现 14 条候选资讯，用时 45.3s",
+          "日期过滤完成：覆盖 2026-06-24，排除非覆盖日期 19 条，保留日期待核验 15 条",
+          "日期闸门：去重后 34 条，排除非覆盖日期 19 条，日期待核验 15 条",
+          "AI 评估：精读 15 条，规则/回退 0 条",
+          "日报发布完成：2026-06-25，入选热点 6 条"
+        ],
+        "counters": {
+          "sources": 6,
+          "articles_found": 15,
+          "articles_saved": 15,
+          "hotspots": 6,
+          "sample_used": false,
+          "articles_before_date_gate": 34,
+          "articles_out_of_window": 19,
+          "articles_date_unverified": 15,
+          "ai_evaluated": 15,
+          "ai_rule_fallbacks": 0
+        }
+      },
+      {
+        "id": 20,
+        "job_type": "daily_hotspot_update",
+        "status": "success",
+        "trigger": "local_preview_date_gate",
+        "started_at": "2026-06-25T14:38:12Z",
+        "finished_at": "2026-06-25T14:38:12Z",
+        "logs": [
+          "任务启动：local_preview_date_gate",
+          "资讯覆盖日期：2026-06-24",
+          "本次按 SOURCE_NAME_FILTER 仅运行 0 个信源：__no_live_sources__",
+          "未抓到可用公开资讯，已使用内置样例数据跑通今日流程",
+          "日期闸门：去重后 8 条，排除非覆盖日期 0 条，日期待核验 0 条",
+          "AI 评估：精读 8 条，规则/回退 8 条",
+          "日报发布完成：2026-06-25，入选热点 7 条"
+        ],
+        "counters": {
+          "sources": 0,
+          "articles_found": 8,
+          "articles_saved": 8,
+          "hotspots": 7,
+          "sample_used": true,
+          "articles_before_date_gate": 8,
+          "articles_out_of_window": 0,
+          "articles_date_unverified": 0,
+          "ai_evaluated": 8,
+          "ai_rule_fallbacks": 8
+        }
+      },
+      {
+        "id": 19,
+        "job_type": "daily_hotspot_update",
+        "status": "success",
+        "trigger": "local_preview_briefing",
+        "started_at": "2026-06-25T14:21:53Z",
+        "finished_at": "2026-06-25T14:21:53Z",
+        "logs": [
+          "任务启动：local_preview_briefing",
+          "本次按 SOURCE_NAME_FILTER 仅运行 0 个信源：__no_live_sources__",
+          "未抓到可用公开资讯，已使用内置样例数据跑通今日流程",
+          "日报发布完成：2026-06-25，入选热点 7 条"
+        ],
+        "counters": {
+          "sources": 0,
+          "articles_found": 8,
+          "articles_saved": 8,
+          "hotspots": 7,
+          "sample_used": true
+        }
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "name": "36氪新消费",
+        "source_type": "公开资讯平台",
+        "url": "https://36kr.com/",
+        "adapter": "html",
+        "enabled": 1,
+        "notes": "用于发现融资、消费品牌和新商业模式资讯。",
+        "created_at": "2026-06-25T09:11:14Z",
+        "updated_at": "2026-06-25T09:11:14Z"
+      },
+      {
+        "id": 2,
+        "name": "赢商网",
+        "source_type": "商业地产媒体",
+        "url": "https://www.winshang.com/",
+        "adapter": "html",
+        "enabled": 1,
+        "notes": "用于发现商业地产、首店和购物中心招商动态。",
+        "created_at": "2026-06-25T09:11:14Z",
+        "updated_at": "2026-06-25T09:11:14Z"
+      },
+      {
+        "id": 3,
+        "name": "Foodaily",
+        "source_type": "食品饮料媒体",
+        "url": "https://www.foodaily.com/",
+        "adapter": "html",
+        "enabled": 1,
+        "notes": "用于发现食品饮料新品和品牌趋势。",
+        "created_at": "2026-06-25T09:11:14Z",
+        "updated_at": "2026-06-25T09:11:14Z"
+      },
+      {
+        "id": 4,
+        "name": "品牌星球",
+        "source_type": "品牌媒体",
+        "url": "https://www.brandstar.com.cn/",
+        "adapter": "html",
+        "enabled": 1,
+        "notes": "用于发现新品牌、品牌升级和消费趋势。",
+        "created_at": "2026-06-25T09:11:14Z",
+        "updated_at": "2026-06-25T09:11:14Z"
+      },
+      {
+        "id": 6,
+        "name": "Google News 新消费品牌搜索",
+        "source_type": "公开资讯平台",
+        "url": "https://news.google.com/rss/search?q=%E6%96%B0%E6%B6%88%E8%B4%B9%20%E7%88%86%E6%AC%BE%20%E5%93%81%E7%89%8C%20OR%20%E9%A6%96%E5%BA%97%20OR%20%E8%9E%8D%E8%B5%84%20OR%20%E5%BC%80%E5%BA%97&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "adapter": "rss",
+        "enabled": 1,
+        "notes": "用于测试自动发现全国/国际新消费与品牌热点资讯。",
+        "created_at": "2026-06-25T09:37:33Z",
+        "updated_at": "2026-06-25T09:37:33Z"
+      },
+      {
+        "id": 7,
+        "name": "互联网搜索：国内新兴品牌",
+        "source_type": "互联网搜索",
+        "url": "search://domestic-emerging-brands",
+        "adapter": "web_search",
+        "enabled": 1,
+        "notes": "通过 SEARCH_PROVIDER 对应的搜索 API Key 搜索新店、新品牌、首店、国货和新锐消费品牌。queries:\n国内 新兴品牌 新店 开业\n中国 新品牌 首店 购物中心\n新锐消费品牌 融资 开店\n国货品牌 首店 新店\n本土品牌 小红书 爆火 门店\n餐饮 新品牌 新店 开业\n美妆 香氛 新锐品牌 首店\n潮玩 文创 新品牌 快闪",
+        "created_at": "2026-06-25T14:13:07Z",
+        "updated_at": "2026-06-25T14:13:07Z"
+      },
+      {
+        "id": 8,
+        "name": "红餐网",
+        "source_type": "餐饮行业媒体",
+        "url": "https://www.canyin88.com/",
+        "adapter": "html",
+        "enabled": 1,
+        "notes": "优先级S；高质量餐饮行业源。关注餐饮新品牌、品类变化、连锁扩张、开业、加盟、茶饮、咖啡、烘焙、小吃。",
+        "created_at": "2026-06-25T16:25:14Z",
+        "updated_at": "2026-06-25T16:25:14Z"
+      },
+      {
+        "id": 9,
+        "name": "FoodTalks 全球食品资讯",
+        "source_type": "食品饮料媒体",
+        "url": "https://www.foodtalks.cn/news",
+        "adapter": "html",
+        "enabled": 1,
+        "notes": "优先级A；高质量食品饮料创新源。关注新品、爆品、创新、饮料、零食、茶饮、咖啡、包装和供应链。",
+        "created_at": "2026-06-25T16:25:14Z",
+        "updated_at": "2026-06-25T16:25:14Z"
+      },
+      {
+        "id": 10,
+        "name": "FBIF 食品饮料创新",
+        "source_type": "食品饮料媒体",
+        "url": "https://www.foodtalks.cn/fbif",
+        "adapter": "html",
+        "enabled": 1,
+        "notes": "优先级A；高质量食品饮料创新与品牌案例源。关注食饮创新、年度榜单、展会、品牌案例和新品类。",
+        "created_at": "2026-06-25T16:25:14Z",
+        "updated_at": "2026-06-25T16:25:14Z"
+      },
+      {
+        "id": 11,
+        "name": "饮品报",
+        "source_type": "饮品行业媒体",
+        "url": "https://www.drinknewspaper.com/",
+        "adapter": "html",
+        "enabled": 1,
+        "notes": "优先级A；高质量饮品垂直源。关注奶茶、咖啡、茶饮、甜品、饮品创业、门店创新和新品牌。",
+        "created_at": "2026-06-25T16:25:14Z",
+        "updated_at": "2026-06-25T16:25:14Z"
+      },
+      {
+        "id": 12,
+        "name": "联商网",
+        "source_type": "零售/商业地产媒体",
+        "url": "https://www.linkshop.com/",
+        "adapter": "html",
+        "enabled": 1,
+        "notes": "优先级A；高质量零售商业源。关注零售、商超、购物中心、首店、开业和品牌入驻。",
+        "created_at": "2026-06-25T16:25:14Z",
+        "updated_at": "2026-06-25T16:25:14Z"
+      },
+      {
+        "id": 13,
+        "name": "中购联",
+        "source_type": "商业地产媒体",
+        "url": "https://www.irgroad.com/",
+        "adapter": "html",
+        "enabled": 1,
+        "notes": "优先级B；商业地产/购物中心行业源。关注购物中心、商业项目、业态创新、行业会议和报告。",
+        "created_at": "2026-06-25T16:25:14Z",
+        "updated_at": "2026-06-25T16:25:14Z"
+      },
+      {
+        "id": 14,
+        "name": "RET 睿意德",
+        "source_type": "商业地产服务机构",
+        "url": "https://www.ret.cn/",
+        "adapter": "html",
+        "enabled": 1,
+        "notes": "优先级B；高质量商业地产研究源。关注城市商业、购物中心、项目调改、业态组合和资产运营趋势。",
+        "created_at": "2026-06-25T16:25:14Z",
+        "updated_at": "2026-06-25T16:25:14Z"
+      },
+      {
+        "id": 15,
+        "name": "亿邦动力",
+        "source_type": "电商/零售媒体",
+        "url": "https://www.ebrun.com/",
+        "adapter": "html",
+        "enabled": 1,
+        "notes": "优先级A；高质量零售与电商媒体。关注零售、电商、新消费、产业互联网、品牌增长和渠道变化。",
+        "created_at": "2026-06-25T16:25:14Z",
+        "updated_at": "2026-06-25T16:25:14Z"
+      },
+      {
+        "id": 16,
+        "name": "壹览商业",
+        "source_type": "大消费媒体",
+        "url": "https://www.yilantop.com/",
+        "adapter": "html",
+        "enabled": 1,
+        "notes": "优先级A；大消费行业源。关注新消费、连锁咖啡、茶饮、融资、零售和品牌扩张。",
+        "created_at": "2026-06-25T16:25:14Z",
+        "updated_at": "2026-06-25T16:25:14Z"
+      },
+      {
+        "id": 17,
+        "name": "消费界",
+        "source_type": "新消费媒体",
+        "url": "https://www.eeeck.com/news/",
+        "adapter": "html",
+        "enabled": 1,
+        "notes": "优先级A；新消费垂直源。关注新兴消费、新品牌、消费趋势和品牌动态。",
+        "created_at": "2026-06-25T16:25:14Z",
+        "updated_at": "2026-06-25T16:25:14Z"
+      },
+      {
+        "id": 18,
+        "name": "Google News 餐饮新品牌",
+        "source_type": "公开资讯平台",
+        "url": "https://news.google.com/rss/search?q=%E9%A4%90%E9%A5%AE+%E6%96%B0%E5%93%81%E7%89%8C+OR+%E9%A4%90%E9%A5%AE+%E7%88%86%E7%81%AB&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "adapter": "rss",
+        "enabled": 1,
+        "notes": "优先级A；精准新闻聚合。聚合餐饮新品牌、爆火、开业和连锁扩张报道。",
+        "created_at": "2026-06-25T16:25:14Z",
+        "updated_at": "2026-06-25T16:25:14Z"
+      },
+      {
+        "id": 19,
+        "name": "Google News 武汉首店新店",
+        "source_type": "公开资讯平台",
+        "url": "https://news.google.com/rss/search?q=%E6%AD%A6%E6%B1%89+%E9%A6%96%E5%BA%97+OR+%E6%AD%A6%E6%B1%89+%E6%96%B0%E5%BA%97+OR+%E5%85%89%E8%B0%B7+%E6%96%B0%E5%BA%97&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "adapter": "rss",
+        "enabled": 1,
+        "notes": "优先级S；本地高相关新闻聚合。捕捉武汉/光谷首店、新店、开业和购物中心入驻报道。",
+        "created_at": "2026-06-25T16:25:14Z",
+        "updated_at": "2026-06-25T16:25:14Z"
+      },
+      {
+        "id": 20,
+        "name": "Google News 茶饮咖啡",
+        "source_type": "公开资讯平台",
+        "url": "https://news.google.com/rss/search?q=%E8%8C%B6%E9%A5%AE+%E5%92%96%E5%95%A1+%E6%96%B0%E5%93%81%E7%89%8C+%E5%BC%80%E5%BA%97&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "adapter": "rss",
+        "enabled": 1,
+        "notes": "优先级A；精准新闻聚合。捕捉茶饮、咖啡、新品牌、新开店和排队爆火报道。",
+        "created_at": "2026-06-25T16:25:14Z",
+        "updated_at": "2026-06-25T16:25:14Z"
+      },
+      {
+        "id": 21,
+        "name": "Google News 购物中心品牌入驻",
+        "source_type": "公开资讯平台",
+        "url": "https://news.google.com/rss/search?q=%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%83+%E5%93%81%E7%89%8C%E5%85%A5%E9%A9%BB+%E9%A6%96%E5%BA%97+%E5%BC%80%E4%B8%9A&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "adapter": "rss",
+        "enabled": 1,
+        "notes": "优先级A；精准新闻聚合。捕捉购物中心品牌入驻、首店、开业和招商动态。",
+        "created_at": "2026-06-25T16:25:14Z",
+        "updated_at": "2026-06-25T16:25:14Z"
+      },
+      {
+        "id": 22,
+        "name": "Google News 消费品牌融资",
+        "source_type": "公开资讯平台",
+        "url": "https://news.google.com/rss/search?q=%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C+%E8%9E%8D%E8%B5%84+OR+%E6%96%B0%E6%B6%88%E8%B4%B9+%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "adapter": "rss",
+        "enabled": 1,
+        "notes": "优先级A；精准新闻聚合。捕捉消费品牌融资、新消费融资和后续线下扩张机会。",
+        "created_at": "2026-06-25T16:25:14Z",
+        "updated_at": "2026-06-25T16:25:14Z"
+      },
+      {
+        "id": 23,
+        "name": "互联网搜索：武汉光谷新店",
+        "source_type": "互联网搜索",
+        "url": "search://wuhan-guanggu-new-stores",
+        "adapter": "web_search",
+        "enabled": 1,
+        "notes": "优先级S；本地高相关搜索源，只保留武汉/光谷新店、首店、开业、排队和品牌入驻线索。queries:\n武汉 新店 开业 首店 排队\n光谷 新店 开业 首店 排队\n世界城 光谷步行街 新店 开业\n武汉 首店 品牌 入驻 购物中心",
+        "created_at": "2026-06-25T16:25:14Z",
+        "updated_at": "2026-06-25T16:25:14Z"
+      },
+      {
+        "id": 24,
+        "name": "互联网搜索：茶饮咖啡烘焙新品牌",
+        "source_type": "互联网搜索",
+        "url": "search://beverage-coffee-bakery-emerging",
+        "adapter": "web_search",
+        "enabled": 1,
+        "notes": "优先级A；高质量垂直搜索源，聚焦茶饮、咖啡、烘焙新品牌和开店爆火信号。queries:\n茶饮 新品牌 爆火 开店 排队\n咖啡 新品牌 连锁 开店 爆火\n烘焙 新品牌 面包店 爆火 排队\n新中式 烘焙 首店 新店",
+        "created_at": "2026-06-25T16:25:14Z",
+        "updated_at": "2026-06-25T16:25:14Z"
+      },
+      {
+        "id": 25,
+        "name": "互联网搜索：零售生活方式新品牌",
+        "source_type": "互联网搜索",
+        "url": "search://retail-lifestyle-emerging",
+        "adapter": "web_search",
+        "enabled": 1,
+        "notes": "优先级A；垂直搜索源，聚焦零食集合店、潮玩、宠物友好和运动户外等线下消费机会。queries:\n零食集合店 新品牌 折扣零食 开店\n潮玩 IP 新品牌 快闪 联名\n宠物消费 新品牌 宠物友好 商场\n户外 运动 新消费 品牌 门店",
+        "created_at": "2026-06-25T16:25:14Z",
+        "updated_at": "2026-06-25T16:25:14Z"
+      },
+      {
+        "id": 5,
+        "name": "社媒公开页",
+        "source_type": "社媒公开页",
+        "url": "https://www.xiaohongshu.com/explore",
+        "adapter": "html",
+        "enabled": 0,
+        "notes": "默认关闭，后续可配置公开可访问话题页或品牌页。",
+        "created_at": "2026-06-25T09:11:14Z",
+        "updated_at": "2026-06-25T09:11:14Z"
+      }
+    ],
+    "auth": {
+      "enabled": false,
+      "mode": "reserved",
+      "message": "第一版暂不启用登录，接口与权限角色已预留。",
+      "roles": [
+        "viewer",
+        "editor",
+        "admin"
+      ]
+    },
+    "scheduler": {
+      "enabled": false,
+      "started": false,
+      "daily_update_start": "06:30",
+      "timezone": "Asia/Shanghai",
+      "next_run_at": "",
+      "last_check_at": "",
+      "last_run_at": "",
+      "last_result_status": "",
+      "last_result_trigger": "",
+      "last_skip_reason": "",
+      "last_error": "",
+      "latest_job": {
+        "id": 24,
+        "job_type": "daily_hotspot_update",
+        "status": "success",
+        "trigger": "demo_seed",
+        "started_at": "2026-06-26T03:26:52Z",
+        "finished_at": "2026-06-26T03:26:52Z",
+        "logs": [
+          "任务启动：demo_seed",
+          "资讯覆盖日期：2026-06-25",
+          "本次按 SOURCE_NAME_FILTER 仅运行 0 个信源：__no_live_sources__",
+          "未抓到可用公开资讯，已使用内置样例数据跑通今日流程",
+          "日期闸门：去重后 8 条，排除非覆盖日期 0 条，日期待核验 0 条，未进主榜 0 条",
+          "AI 评估：精读 8 条，规则/回退 8 条，同品牌聚合 0 条，多来源热点 0 条",
+          "日报发布完成：2026-06-26，入选热点 7 条"
+        ],
+        "counters": {
+          "sources": 0,
+          "articles_found": 8,
+          "articles_saved": 8,
+          "hotspots": 7,
+          "sample_used": true,
+          "articles_before_date_gate": 8,
+          "articles_out_of_window": 0,
+          "articles_date_unverified": 0,
+          "articles_date_unverified_suppressed": 0,
+          "hotspots_aggregated": 0,
+          "multi_source_hotspots": 0,
+          "ai_evaluated": 8,
+          "ai_rule_fallbacks": 8
+        }
+      }
+    }
+  },
+  "reports": [
+    {
+      "report_date": "2026-06-26",
+      "status": "published",
+      "total_articles": 8,
+      "total_hotspots": 7,
+      "published_at": "2026-06-26T03:26:52Z",
+      "coverage": {
+        "品牌官网": 1,
+        "互联网搜索": 1,
+        "社媒公开页": 1,
+        "公开资讯平台": 2,
+        "融资动态": 1,
+        "国际媒体": 1
+      },
+      "insights": [
+        {
+          "name": "国内新兴品牌",
+          "count": 2,
+          "summary": "国内新锐品牌、国货品牌和区域首店信号更集中，适合优先进入招商跟踪池。"
+        },
+        {
+          "name": "新消费爆款",
+          "count": 2,
+          "summary": "今天爆款信号集中在年轻客群、社媒传播和排队抢购。"
+        },
+        {
+          "name": "线下扩张",
+          "count": 2,
+          "summary": "多条线索体现门店拓展，适合招商团队跟进位置需求。"
+        },
+        {
+          "name": "国际新兴品牌",
+          "count": 1,
+          "summary": "国际品牌与海外首店可作为差异化招商线索。"
+        }
+      ],
+      "briefing": {
+        "report_title": "2026-06-25 招商日报",
+        "report_date": "2026-06-26",
+        "coverage_date": "2026-06-25",
+        "generated_at": "2026-06-26T03:26:52Z",
+        "verification_status": "规则审核通过",
+        "accuracy_score": 82,
+        "top_takeaways": [
+          {
+            "label": "最值得跟进",
+            "text": "ScentLab出现国内新兴品牌信号，建议结合原文核查门店模型和合作窗口。",
+            "hotspot_ids": [
+              83
+            ]
+          },
+          {
+            "label": "爆火新品牌",
+            "text": "ScentLab出现国内新兴品牌信号，建议结合原文核查门店模型和合作窗口。",
+            "hotspot_ids": [
+              83
+            ]
+          },
+          {
+            "label": "招商机会",
+            "text": "酥山出现国内新兴品牌信号，建议结合原文核查门店模型和合作窗口。",
+            "hotspot_ids": [
+              84
+            ]
+          }
+        ],
+        "breakout_brands": [
+          {
+            "hotspot_id": 83,
+            "brand_name": "ScentLab",
+            "signal": "国内新兴品牌",
+            "why_now": "ScentLab首店开业三日销售突破百万，年轻客群占比超过70%",
+            "leasing_angle": "零售集合方向出现国内新兴品牌信号，建议优先核查门店模型、社媒热度和武汉/华中首进可能性。",
+            "evidence": "ScentLab首店开业三日销售突破百万，年轻客群占比超过70%",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/scentlab-opening",
+            "score": 96
+          },
+          {
+            "hotspot_id": 84,
+            "brand_name": "酥山",
+            "signal": "国内新兴品牌",
+            "why_now": "国内新锐烘焙品牌酥山武汉首店开业，开业周末多款产品连续售罄",
+            "leasing_angle": "饮品甜品方向出现国内新兴品牌信号，建议优先核查门店模型、社媒热度和武汉/华中首进可能性。",
+            "evidence": "国内新锐烘焙品牌酥山武汉首店开业，开业周末多款产品连续售罄",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/sushan-wuhan-first-store",
+            "score": 96
+          },
+          {
+            "hotspot_id": 85,
+            "brand_name": "TOYCITY",
+            "signal": "新消费爆款",
+            "why_now": "TOYCITY与LABUBU推出联名盲盒后，多平台出现抢购，部分款式二级市场溢价达到3-5倍",
+            "leasing_angle": "潮玩文创方向出现增长信号，建议跟踪品牌拓店意愿、坪效模型和客群匹配度。",
+            "evidence": "TOYCITY与LABUBU推出联名盲盒后，多平台出现抢购，部分款式二级市场溢价达到3-5倍",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/toycity-labubu",
+            "score": 89
+          },
+          {
+            "hotspot_id": 86,
+            "brand_name": "爷爷不泡茶",
+            "signal": "新消费爆款",
+            "why_now": "爷爷不泡茶海外首店落地新加坡，首日排队超过300米",
+            "leasing_angle": "饮品甜品方向出现增长信号，建议跟踪品牌拓店意愿、坪效模型和客群匹配度。",
+            "evidence": "爷爷不泡茶海外首店落地新加坡，首日排队超过300米",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/grandpa-tea-singapore",
+            "score": 86
+          }
+        ],
+        "key_news": [
+          {
+            "hotspot_id": 83,
+            "title": "香氛集合品牌「ScentLab」首店开业三日销售破百万，年轻客群占比超70%",
+            "summary": "ScentLab首店开业三日销售突破百万，年轻客群占比超过70%",
+            "implication": "零售集合方向出现国内新兴品牌信号，建议优先核查门店模型、社媒热度和武汉/华中首进可能性。",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/scentlab-opening",
+            "tags": [
+              "零售集合",
+              "国内新兴品牌",
+              "国内新兴",
+              "适合线下关注"
+            ]
+          },
+          {
+            "hotspot_id": 84,
+            "title": "国内新锐烘焙品牌「酥山」武汉首店开业，开业周末连续售罄",
+            "summary": "国内新锐烘焙品牌酥山武汉首店开业，开业周末多款产品连续售罄",
+            "implication": "饮品甜品方向出现国内新兴品牌信号，建议优先核查门店模型、社媒热度和武汉/华中首进可能性。",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/sushan-wuhan-first-store",
+            "tags": [
+              "饮品甜品",
+              "国内新兴品牌",
+              "国内新兴",
+              "适合线下关注"
+            ]
+          },
+          {
+            "hotspot_id": 85,
+            "title": "潮玩品牌「TOYCITY」联名LABUBU系列盲盒引发多平台抢购",
+            "summary": "TOYCITY与LABUBU推出联名盲盒后，多平台出现抢购，部分款式二级市场溢价达到3-5倍",
+            "implication": "潮玩文创方向出现增长信号，建议跟踪品牌拓店意愿、坪效模型和客群匹配度。",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/toycity-labubu",
+            "tags": [
+              "潮玩文创",
+              "新消费爆款"
+            ]
+          },
+          {
+            "hotspot_id": 86,
+            "title": "茶饮品牌「爷爷不泡茶」海外首店落地新加坡，首日排队超过300米",
+            "summary": "爷爷不泡茶海外首店落地新加坡，首日排队超过300米",
+            "implication": "饮品甜品方向出现增长信号，建议跟踪品牌拓店意愿、坪效模型和客群匹配度。",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/grandpa-tea-singapore",
+            "tags": [
+              "饮品甜品",
+              "新消费爆款",
+              "国际参考",
+              "适合线下关注"
+            ]
+          },
+          {
+            "hotspot_id": 87,
+            "title": "健康轻食品牌「KeepFit Kitchen」完成近亿元B轮融资，将加码线下门店",
+            "summary": "KeepFit Kitchen完成近亿元人民币B轮融资，将用于产品研发、供应链升级和线下门店扩张",
+            "implication": "饮品甜品方向已有购物中心场景信号，建议进入招商备选清单并核查门店模型。",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/keepfit-funding",
+            "tags": [
+              "饮品甜品",
+              "线下扩张",
+              "适合线下关注"
+            ]
+          },
+          {
+            "hotspot_id": 88,
+            "title": "甜品品牌「Sachertorte」完成千万欧元A轮融资，计划进入亚洲购物中心",
+            "summary": "Sachertorte完成千万欧元A轮融资，投资方看好其精品甜品和门店模型",
+            "implication": "具备国际参考价值，可用于寻找差异化首店、快闪或区域首进合作机会。",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/sachertorte-funding",
+            "tags": [
+              "饮品甜品",
+              "国际新兴品牌",
+              "适合线下关注"
+            ]
+          },
+          {
+            "hotspot_id": 89,
+            "title": "咖啡烘焙品牌「野人先生」完成新一轮融资，加速供应链建设",
+            "summary": "野人先生完成新一轮融资，将用于烘焙工厂和门店后厨建设",
+            "implication": "饮品甜品方向已有购物中心场景信号，建议进入招商备选清单并核查门店模型。",
+            "source_name": "样例信源",
+            "source_url": "https://www.example.com/sample/wildman-coffee",
+            "tags": [
+              "饮品甜品",
+              "线下扩张",
+              "适合线下关注"
+            ]
+          }
+        ],
+        "leasing_actions": [
+          {
+            "priority": "P0",
+            "action": "优先核查榜首品牌的开店模型和区域首进窗口",
+            "reason": "ScentLab当前招商价值和爆款潜力综合靠前。",
+            "hotspot_ids": [
+              83
+            ]
+          },
+          {
+            "priority": "P1",
+            "action": "把爆火新兴品牌加入本周招商短名单",
+            "reason": "这些品牌具备社媒扩散、新店/首店或排队售罄等短期机会信号。",
+            "hotspot_ids": [
+              83,
+              84,
+              85,
+              86
+            ]
+          }
+        ],
+        "risk_notes": [
+          "所有结论仅基于已抓取公开资讯和原文证据，招商跟进前仍需二次核查品牌官方开店计划。",
+          "社媒爆火、排队和售罄类信号存在短周期波动，建议结合近7天复现度判断。"
+        ],
+        "agent_trace": [
+          "fact_curator:rules",
+          "report_writer:rules",
+          "verifier:rules"
+        ],
+        "total_articles": 8,
+        "total_hotspots": 7,
+        "verification_notes": []
+      }
+    },
+    {
+      "report_date": "2026-06-25",
+      "status": "published",
+      "total_articles": 15,
+      "total_hotspots": 6,
+      "published_at": "2026-06-25T15:44:18Z",
+      "coverage": {
+        "食品饮料媒体": 1,
+        "商业地产媒体": 4,
+        "品牌媒体": 1
+      },
+      "insights": [
+        {
+          "name": "国内新兴品牌",
+          "count": 3,
+          "summary": "国内新锐品牌、国货品牌和区域首店信号更集中，适合优先进入招商跟踪池。"
+        },
+        {
+          "name": "线下扩张",
+          "count": 2,
+          "summary": "多条线索体现门店拓展，适合招商团队跟进位置需求。"
+        },
+        {
+          "name": "国际新兴品牌",
+          "count": 1,
+          "summary": "国际品牌与海外首店可作为差异化招商线索。"
+        }
+      ],
+      "briefing": {
+        "report_title": "2026-06-24 招商日报",
+        "report_date": "2026-06-25",
+        "coverage_date": "2026-06-24",
+        "generated_at": "2026-06-25T15:42:34Z",
+        "verification_status": "规则审核通过",
+        "accuracy_score": 82,
+        "top_takeaways": [
+          {
+            "label": "最值得跟进",
+            "text": "金粒门出现国内新兴品牌信号，建议结合原文核查门店模型和合作窗口。",
+            "hotspot_ids": [
+              70
+            ]
+          },
+          {
+            "label": "爆火新品牌",
+            "text": "金粒门出现国内新兴品牌信号，建议结合原文核查门店模型和合作窗口。",
+            "hotspot_ids": [
+              70
+            ]
+          },
+          {
+            "label": "招商机会",
+            "text": "HARMAY话梅出现国内新兴品牌信号，建议结合原文核查门店模型和合作窗口。",
+            "hotspot_ids": [
+              71
+            ]
+          }
+        ],
+        "breakout_brands": [
+          {
+            "hotspot_id": 70,
+            "brand_name": "金粒门",
+            "signal": "国内新兴品牌",
+            "why_now": "长沙新鲜零食品牌金粒门走出湖南，在南京、无锡开出华东首店，三天营业额破百万，主打短保现制、质价比，单品咔咔虾片成爆款，全国直营近30家，加速扩张。",
+            "leasing_angle": "金粒门作为新鲜零食赛道黑马，华东首店创下三天百万营收，无锡店开业即限购，社交平台话题热度高，代购月销万件，已形成跨区域品牌势能。品牌正加速全国布局，深圳、广州、杭州等城市首店已签约，并提前布局供应链（常州、深圳工厂投产）。建议招商团队优先接触，评估其30-50㎡标准店型在B1小吃层或地铁连通口等高流量点位的坪效潜力，利",
+            "evidence": "文：Lyra Liu\n来源：Foodaily每日食品（ID：foodaily）\n封面图来源：小红书@鹿鹿宝儿、乌龙冰茶\n火到限购",
+            "source_name": "Foodaily",
+            "source_url": "https://www.foodaily.com/articles/41881",
+            "score": 98
+          },
+          {
+            "hotspot_id": 71,
+            "brand_name": "HARMAY话梅",
+            "signal": "国内新兴品牌",
+            "why_now": "HARMAY话梅在杭州开设以办公室为灵感的新店，并推出全新社区店模式「话梅坊」，持续扩张线下布局。",
+            "leasing_angle": "本期资讯释放多个饮品甜品及美妆个护创新信号：永璞咖啡首家线下首店落户上海，作为新锐精品咖啡品牌，社媒热度高，建议核查武汉首进可能性；HARMAY话梅持续创新门店模型（杭州办公室主题店、社区店话梅坊），可探讨引入武汉世界城打造话题；另外，国货品牌海外势能提升，The Row等奢侈品牌衍生品入香氛，高坪效特征值得关注。 发",
+            "evidence": "“中国时尚”正不断在海外新兴市场中崭露头角，“国货之光”们无论从品牌力还是品牌势能都将迎来新一轮的提升",
+            "source_name": "赢商网",
+            "source_url": "http://news.winshang.com/list-7008.html",
+            "score": 96
+          },
+          {
+            "hotspot_id": 75,
+            "brand_name": "OBSBOT 寻影",
+            "signal": "国内新兴品牌",
+            "why_now": "寻影通过「翻」字campaign，联动李雪琴，将新产品从工具升级为品牌伙伴，成功实现内容种草到销售转化。",
+            "leasing_angle": "寻影通过李雪琴Campaign成功将会议摄像头品类注入社交基因，社媒话题阅读4小时破10万+，直播GMV登顶数码摄像机品类，播客登顶小宇宙热播榜，验证了从内容种草到转化的完整链路。品牌定位‘让表达更自在’，契合当代职场人松弛沟通需求，具备科技消费品牌从线上向线下延伸的潜力。建议招商团队主动联络寻影，探讨在华中地区开设首",
+            "evidence": "新锐科技品牌如何出圈",
+            "source_name": "品牌星球",
+            "source_url": "https://www.brandstar.com.cn/news/8176",
+            "score": 68
+          }
+        ],
+        "key_news": [
+          {
+            "hotspot_id": 70,
+            "title": "火到限购！开业三天爆卖百万，长沙零食“黑马”凭啥征服江苏人？ | Foodaily每日食品",
+            "summary": "长沙新鲜零食品牌金粒门走出湖南，在南京、无锡开出华东首店，三天营业额破百万，主打短保现制、质价比，单品咔咔虾片成爆款，全国直营近30家，加速扩张。",
+            "implication": "金粒门作为新鲜零食赛道黑马，华东首店创下三天百万营收，无锡店开业即限购，社交平台话题热度高，代购月销万件，已形成跨区域品牌势能。品牌正加速全国布局，深圳、广州、杭州等城市首店已签约，并提前布局供应链（常州、深圳工厂投产）。建议招商团队优先接触，评估其30-50㎡标准店型在B1小吃层或地铁连通口等高流量点位的坪效潜力，利",
+            "source_name": "Foodaily",
+            "source_url": "https://www.foodaily.com/articles/41881",
+            "tags": [
+              "饮品甜品",
+              "新消费爆款",
+              "适合线下关注",
+              "新鲜零食",
+              "短保"
+            ]
+          },
+          {
+            "hotspot_id": 71,
+            "title": "品牌选址_新闻中心_赢商网",
+            "summary": "HARMAY话梅在杭州开设以办公室为灵感的新店，并推出全新社区店模式「话梅坊」，持续扩张线下布局。",
+            "implication": "本期资讯释放多个饮品甜品及美妆个护创新信号：永璞咖啡首家线下首店落户上海，作为新锐精品咖啡品牌，社媒热度高，建议核查武汉首进可能性；HARMAY话梅持续创新门店模型（杭州办公室主题店、社区店话梅坊），可探讨引入武汉世界城打造话题；另外，国货品牌海外势能提升，The Row等奢侈品牌衍生品入香氛，高坪效特征值得关注。 发",
+            "source_name": "赢商网",
+            "source_url": "http://news.winshang.com/list-7008.html",
+            "tags": [
+              "饮品甜品",
+              "国内新兴品牌",
+              "国内新兴",
+              "国际参考",
+              "适合线下关注"
+            ]
+          },
+          {
+            "hotspot_id": 72,
+            "title": "赢商品牌秀_品牌商家_人物访谈_品牌推广-赢商网",
+            "summary": "澳洲仙女印花设计师品牌ZIMMERMANN在上海开设中国首店，拓展中国市场。",
+            "implication": "澳洲设计师品牌ZIMMERMANN中国首店落沪，标志着高端设计师品牌加速进入购物中心。建议招商团队快速跟进，评估其拓店计划、客群匹配度及坪效潜力，争取首店资源以提升项目时尚竞争力。 发布日期待核验，进入招商跟进前需确认资讯时间。",
+            "source_name": "赢商网",
+            "source_url": "http://news.winshang.com/brandshow/",
+            "tags": [
+              "饮品甜品",
+              "线下扩张",
+              "适合线下关注",
+              "设计师品牌",
+              "中国首店"
+            ]
+          },
+          {
+            "hotspot_id": 73,
+            "title": "品牌_奢侈品牌排行榜_品牌策划_品牌故事_新闻中心_赢商网",
+            "summary": "名创优品乐园系标杆店态MINISO LAND云南首店亮相昆明，近1200㎡超大沉浸式潮玩空间。",
+            "implication": "名创优品推出乐园系标杆店态MINISO LAND，云南首店1200㎡沉浸式潮玩空间，展现潮玩文创品牌向超大空间体验化升级趋势。此类创新店态具备强聚客效应，可作为世界城差异化首店或区域首进目标，建议邀请品牌方洽谈入驻，或策划快闪合作，提升项目年轻力。 发布日期待核验，进入招商跟进前需确认资讯时间。",
+            "source_name": "赢商网",
+            "source_url": "http://news.winshang.com/list-12.html",
+            "tags": [
+              "潮玩文创",
+              "国际新兴品牌",
+              "国际参考",
+              "适合线下关注",
+              "名创优品"
+            ]
+          },
+          {
+            "hotspot_id": 75,
+            "title": "新锐科技品牌如何出圈？看李雪琴 × 寻影这样「翻」出重围",
+            "summary": "寻影通过「翻」字campaign，联动李雪琴，将新产品从工具升级为品牌伙伴，成功实现内容种草到销售转化。",
+            "implication": "寻影通过李雪琴Campaign成功将会议摄像头品类注入社交基因，社媒话题阅读4小时破10万+，直播GMV登顶数码摄像机品类，播客登顶小宇宙热播榜，验证了从内容种草到转化的完整链路。品牌定位‘让表达更自在’，契合当代职场人松弛沟通需求，具备科技消费品牌从线上向线下延伸的潜力。建议招商团队主动联络寻影，探讨在华中地区开设首",
+            "source_name": "品牌星球",
+            "source_url": "https://www.brandstar.com.cn/news/8176",
+            "tags": [
+              "潮玩文创",
+              "国内新兴品牌",
+              "国内新兴",
+              "科技品牌",
+              "AI会议摄像头"
+            ]
+          },
+          {
+            "hotspot_id": 74,
+            "title": "首店报告_新闻中心_赢商网",
+            "summary": "名创优品在云南开设新首店，当地首店市场活跃态势延续。",
+            "implication": "顺城购物中心通过引入RicoVea等国际新兴品牌作为首店引擎持续拉动客流，凸显首店经济的引流效应。建议招商团队主动接洽RicoVea或同类国际小众品牌，优先争取区域首进或快闪合作，借助其稀缺性和社交话题度快速制造商场声量，强化世界城作为首店目的地的定位。 发布日期待核验，进入招商跟进前需确认资讯时间。",
+            "source_name": "赢商网",
+            "source_url": "http://news.winshang.com/list-7006.html",
+            "tags": [
+              "餐饮",
+              "国际新兴品牌",
+              "适合线下关注",
+              "首店",
+              "云南"
+            ]
+          }
+        ],
+        "leasing_actions": [
+          {
+            "priority": "P0",
+            "action": "优先核查榜首品牌的开店模型和区域首进窗口",
+            "reason": "金粒门当前招商价值和爆款潜力综合靠前。",
+            "hotspot_ids": [
+              70
+            ]
+          },
+          {
+            "priority": "P1",
+            "action": "把爆火新兴品牌加入本周招商短名单",
+            "reason": "这些品牌具备社媒扩散、新店/首店或排队售罄等短期机会信号。",
+            "hotspot_ids": [
+              70,
+              71,
+              75
+            ]
+          }
+        ],
+        "risk_notes": [
+          "所有结论仅基于已抓取公开资讯和原文证据，招商跟进前仍需二次核查品牌官方开店计划。",
+          "社媒爆火、排队和售罄类信号存在短周期波动，建议结合近7天复现度判断。",
+          "部分资讯发布时间无法解析，已标记为日期待核验，招商跟进前需确认是否属于昨日资讯。"
+        ],
+        "agent_trace": [
+          "daily_deepseek_failed:ReadTimeout",
+          "fact_curator:rules",
+          "report_writer:rules",
+          "verifier:rules"
+        ],
+        "total_articles": 15,
+        "total_hotspots": 6,
+        "verification_notes": [
+          "AI 日报智能体调用失败，已使用规则日报回退：ReadTimeout"
+        ]
+      }
+    }
+  ]
+}
