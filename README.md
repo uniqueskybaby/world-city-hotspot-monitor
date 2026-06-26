@@ -22,7 +22,9 @@
 - Windows：双击 `start-windows.bat`
 - Linux：运行 `start-linux.sh`
 
-启动脚本会自动安装依赖、构建前端、打开浏览器并启动本地服务。包内保留 `data/hotspots.db` 作为演示和测试数据。
+启动脚本会自动安装后端依赖、打开浏览器并启动本地服务。交付包内已包含 `dist` 页面文件，所以接收方正常情况下不需要安装 Node.js；如果 `dist` 被删除，才需要 Node.js 20.19+ 或 22.12+ 重新构建前端。包内保留 `data/hotspots.db` 作为演示和测试数据。
+
+Windows 如果启动失败，请查看同目录生成的 `startup-log.txt`。常见原因是未安装 Python 3.9+、网络无法安装 Python 依赖、或电脑安全软件拦截本地服务。
 
 ### 手动运行
 
@@ -43,7 +45,7 @@ python -m uvicorn backend.app:app --host 127.0.0.1 --port 8000
 npm run package:local
 ```
 
-输出文件位于 `release/world-city-hotspot-monitor-local.zip`。打包会排除 `.venv`、`node_modules`、`.npm-cache`、`dist`、`artifacts`、`.env` 等开发中间产物，并保留演示数据库。
+输出文件位于 `release/world-city-hotspot-monitor-local.zip`。打包会排除 `.venv`、`node_modules`、`.npm-cache`、`artifacts`、`.env` 等开发中间产物，并保留演示数据库和可直接运行的 `dist` 页面文件。
 
 ## 远端部署
 

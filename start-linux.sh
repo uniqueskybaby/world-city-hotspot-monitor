@@ -22,8 +22,17 @@ fi
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-npm install
-npm run build
+
+if [ -f "dist/index.html" ]; then
+  echo "Built frontend found; skipping frontend build."
+else
+  if ! command -v npm >/dev/null 2>&1; then
+    echo "Node.js and npm are required when dist/index.html is missing."
+    exit 1
+  fi
+  npm install
+  npm run build
+fi
 
 if command -v xdg-open >/dev/null 2>&1; then
   (sleep 2 && xdg-open "http://127.0.0.1:8000") >/dev/null 2>&1 &

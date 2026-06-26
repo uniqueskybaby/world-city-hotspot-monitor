@@ -15,7 +15,6 @@ EXCLUDED_DIRS = {
     ".venv",
     ".npm-cache",
     "node_modules",
-    "dist",
     "artifacts",
     "release",
     "__pycache__",
@@ -64,7 +63,8 @@ def main() -> None:
                     "世界城招商热点监测 - 本地运行包",
                     f"打包时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
                     "",
-                    "双击 start-mac.command 或 start-windows.bat 即可安装依赖并启动。",
+                    "双击 start-mac.command 或 start-windows.bat 即可安装后端依赖并启动。",
+                    "包内已包含 dist 页面文件，正常情况下 Windows 不需要安装 Node.js。",
                     "包内保留 data/hotspots.db 作为演示和测试数据。",
                 ]
             )

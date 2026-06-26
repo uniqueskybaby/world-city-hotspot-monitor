@@ -14,4 +14,6 @@ Daily report requirement: daily招商日报 should summarize the previous day's 
 
 Daily report date policy: when the app labels a report as yesterday's briefing, candidates with parseable publish dates outside the coverage date must be excluded. Candidates with unparseable dates may be retained only as supplemental leads tagged "日期待核验", and the report must surface that risk.
 
-Durable delivery requirement: published and packaged handoffs should keep a small, useful demo dataset such as `data/hotspots.db` or exported demo JSON, while excluding dependency folders, build output, local environment files, design artifacts, caches, and other development intermediates from the handoff package.
+Durable delivery requirement: published and packaged handoffs should keep a small, useful demo dataset such as `data/hotspots.db` or exported demo JSON, while excluding dependency folders, local environment files, design artifacts, caches, and other development intermediates from the handoff package.
+
+Durable Windows handoff requirement: local ZIP packages should include the built `dist` frontend so Windows recipients can launch with Python 3.9+ only in the normal path. `start-windows.bat` should skip Node.js when `dist/index.html` exists and write a `startup-log.txt` when startup fails.
