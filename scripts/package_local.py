@@ -17,12 +17,14 @@ EXCLUDED_DIRS = {
     "node_modules",
     "artifacts",
     "release",
+    ".vercel",
     "__pycache__",
 }
 
 EXCLUDED_FILES = {
     ".DS_Store",
     ".env",
+    ".env.local",
     "startup-log.txt",
     "design-qa.md",
 }
