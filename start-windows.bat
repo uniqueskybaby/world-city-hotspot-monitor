@@ -1,5 +1,5 @@
 @echo off
-setlocal EnableExtensions
+setlocal EnableExtensions EnableDelayedExpansion
 chcp 65001 >nul
 cd /d "%~dp0"
 
@@ -16,8 +16,8 @@ if not defined PYTHON_CMD (
 )
 
 if not defined PYTHON_CMD (
-  echo 未找到可用的 Python 3.9+。
-  echo 未找到可用的 Python 3.9+。>> "%LOG_FILE%"
+  echo 未找到可用的 Python 3.9-3.13。
+  echo 未找到可用的 Python 3.9-3.13。>> "%LOG_FILE%"
   start "" "https://www.python.org/downloads/windows/"
   goto fail
 )
@@ -32,16 +32,18 @@ exit /b 0
 set "PYTHON_CMD="
 where py >nul 2>nul
 if %ERRORLEVEL% EQU 0 (
-  py -3 -c "import sys; raise SystemExit(0 if sys.version_info >= (3, 9) else 1)" >nul 2>nul
-  if %ERRORLEVEL% EQU 0 (
-    set "PYTHON_CMD=py -3"
-    exit /b 0
+  for %%V in (3.12 3.11 3.10 3.9 3.13) do (
+    py -%%V -c "import sys; raise SystemExit(0 if (3, 9) <= sys.version_info[:2] < (3, 14) else 1)" >nul 2>nul
+    if !ERRORLEVEL! EQU 0 (
+      set "PYTHON_CMD=py -%%V"
+      exit /b 0
+    )
   )
 )
 
 where python >nul 2>nul
 if %ERRORLEVEL% EQU 0 (
-  python -c "import sys; raise SystemExit(0 if sys.version_info >= (3, 9) else 1)" >nul 2>nul
+  python -c "import sys; raise SystemExit(0 if (3, 9) <= sys.version_info[:2] < (3, 14) else 1)" >nul 2>nul
   if %ERRORLEVEL% EQU 0 (
     set "PYTHON_CMD=python"
     exit /b 0
@@ -61,8 +63,8 @@ if exist "%ProgramFiles%\Python312\python.exe" (
 exit /b 0
 
 :install_python
-echo 未检测到 Python 3.9+，正在尝试自动安装 Python 3.12...
-echo 未检测到 Python 3.9+，正在尝试自动安装 Python 3.12。>> "%LOG_FILE%"
+echo 未检测到兼容的 Python 3.9-3.13，正在尝试自动安装 Python 3.12...
+echo 未检测到兼容的 Python 3.9-3.13，正在尝试自动安装 Python 3.12。>> "%LOG_FILE%"
 where winget >nul 2>nul
 if %ERRORLEVEL% NEQ 0 (
   echo 当前 Windows 未找到 winget，无法自动安装 Python。

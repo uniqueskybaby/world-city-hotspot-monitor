@@ -47,11 +47,24 @@ def digest(path: Path) -> str:
 
 def ensure_python_version() -> None:
     if sys.version_info < (3, 9):
-        raise RuntimeError("当前 Python 版本过低，请安装 Python 3.9 或更高版本。")
+        raise RuntimeError("当前 Python 版本过低，请安装 Python 3.9 到 3.13。")
+    if sys.version_info >= (3, 14):
+        raise RuntimeError("当前 Python 版本过新，部分依赖暂不兼容。请安装 Python 3.12。")
+
+
+def python_compatible(python_path: Path) -> bool:
+    if not python_path.exists():
+        return False
+    check = "import sys; raise SystemExit(0 if (3, 9) <= sys.version_info[:2] < (3, 14) else 1)"
+    return subprocess.run([str(python_path), "-c", check], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL).returncode == 0
 
 
 def ensure_backend_environment() -> Path:
     python_path = venv_python()
+    if python_path.exists() and not python_compatible(python_path):
+        log("检测到旧运行环境使用了不兼容的 Python 版本，正在重建。")
+        shutil.rmtree(ROOT / ".venv", ignore_errors=True)
+
     if not python_path.exists():
         run_step("创建 Python 运行环境", [sys.executable, "-m", "venv", str(ROOT / ".venv")])
 
