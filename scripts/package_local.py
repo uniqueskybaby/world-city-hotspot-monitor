@@ -23,6 +23,7 @@ EXCLUDED_DIRS = {
 EXCLUDED_FILES = {
     ".DS_Store",
     ".env",
+    "startup-log.txt",
     "design-qa.md",
 }
 
@@ -63,8 +64,9 @@ def main() -> None:
                     "世界城招商热点监测 - 本地运行包",
                     f"打包时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
                     "",
-                    "双击 start-mac.command 或 start-windows.bat 即可安装后端依赖并启动。",
-                    "包内已包含 dist 页面文件，正常情况下 Windows 不需要安装 Node.js。",
+                    "双击 start-mac.command 或 start-windows.bat 即可安装/检查依赖并启动。",
+                    "Windows 会在缺少 Python 3.9+ 时优先尝试通过 winget 自动安装。",
+                    "包内已包含 dist 页面文件，正常情况下不需要安装 Node.js。",
                     "包内保留 data/hotspots.db 作为演示和测试数据。",
                 ]
             )

@@ -22,9 +22,9 @@
 - Windows：双击 `start-windows.bat`
 - Linux：运行 `start-linux.sh`
 
-启动脚本会自动安装后端依赖、打开浏览器并启动本地服务。交付包内已包含 `dist` 页面文件，所以接收方正常情况下不需要安装 Node.js；如果 `dist` 被删除，才需要 Node.js 20.19+ 或 22.12+ 重新构建前端。包内保留 `data/hotspots.db` 作为演示和测试数据。
+启动脚本会自动检查依赖、安装后端运行环境、等待服务就绪、打开浏览器并启动本地服务。Windows 如果缺少 Python 3.9+，会优先尝试通过系统自带的 `winget` 自动安装 Python 3.12；如果电脑没有 `winget`，脚本会打开 Python 下载页。交付包内已包含 `dist` 页面文件，所以接收方正常情况下不需要安装 Node.js；如果 `dist` 被删除，才需要 Node.js 20.19+ 或 22.12+ 重新构建前端。包内保留 `data/hotspots.db` 作为演示和测试数据。
 
-Windows 如果启动失败，请查看同目录生成的 `startup-log.txt`。常见原因是未安装 Python 3.9+、网络无法安装 Python 依赖、或电脑安全软件拦截本地服务。
+Windows 如果启动失败，请查看同目录生成的 `startup-log.txt`。常见原因是网络无法安装 Python 依赖、公司电脑禁用 `winget`、或安全软件拦截本地服务。若浏览器没有自动打开，可手动复制启动窗口里显示的 `http://127.0.0.1:端口号`。
 
 ### 手动运行
 

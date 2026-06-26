@@ -9,93 +9,74 @@ echo 世界城招商热点监测启动日志 > "%LOG_FILE%"
 echo 当前目录：%CD% >> "%LOG_FILE%"
 echo. >> "%LOG_FILE%"
 
-where py >nul 2>nul
-if %ERRORLEVEL% EQU 0 (
-  set "PYTHON=py -3"
-) else (
-  set "PYTHON=python"
+call :find_python
+if not defined PYTHON_CMD (
+  call :install_python
+  call :find_python
 )
 
-%PYTHON% --version >nul 2>nul
-if %ERRORLEVEL% NEQ 0 (
-  echo 未找到 Python 3，请先安装 Python 3。
-  echo 下载地址：https://www.python.org/downloads/windows/
-  echo 未找到 Python 3。>> "%LOG_FILE%"
-  pause
-  exit /b 1
-)
-
-%PYTHON% -c "import sys; raise SystemExit(0 if sys.version_info >= (3, 9) else 1)" >> "%LOG_FILE%" 2>&1
-if %ERRORLEVEL% NEQ 0 (
-  echo 当前 Python 版本过低，请安装 Python 3.9 或更高版本。
-  echo 当前 Python 版本过低。>> "%LOG_FILE%"
-  pause
-  exit /b 1
-)
-
-if not exist ".venv\Scripts\python.exe" (
-  call :run "创建 Python 运行环境" "%PYTHON% -m venv .venv" || goto fail
-)
-
-call .venv\Scripts\activate.bat >> "%LOG_FILE%" 2>&1
-if %ERRORLEVEL% NEQ 0 (
-  echo Python 运行环境启动失败，请查看 startup-log.txt。
+if not defined PYTHON_CMD (
+  echo 未找到可用的 Python 3.9+。
+  echo 未找到可用的 Python 3.9+。>> "%LOG_FILE%"
+  start "" "https://www.python.org/downloads/windows/"
   goto fail
 )
 
-call :run "升级 pip" "python -m pip install --upgrade pip" || goto fail
-call :run "安装后端依赖" "python -m pip install -r requirements.txt" || goto fail
-
-if exist "dist\index.html" (
-  echo 已检测到内置页面文件，跳过 Node.js 前端构建。
-  echo 已检测到 dist\index.html，跳过 Node.js 前端构建。>> "%LOG_FILE%"
-) else (
-  where node >nul 2>nul
-  if %ERRORLEVEL% NEQ 0 (
-    echo 未找到 Node.js。当前包缺少 dist 页面文件时，需要安装 Node.js 22 LTS。
-    echo 下载地址：https://nodejs.org/
-    echo 未找到 Node.js。>> "%LOG_FILE%"
-    pause
-    exit /b 1
-  )
-  where npm >nul 2>nul
-  if %ERRORLEVEL% NEQ 0 (
-    echo 未找到 npm，请重新安装 Node.js 22 LTS。
-    echo 未找到 npm。>> "%LOG_FILE%"
-    pause
-    exit /b 1
-  )
-  node -e "const [major, minor] = process.versions.node.split('.').map(Number); process.exit((major === 20 && minor >= 19) || (major === 22 && minor >= 12) || major > 22 ? 0 : 1)" >> "%LOG_FILE%" 2>&1
-  if %ERRORLEVEL% NEQ 0 (
-    echo Node.js 版本过低，请安装 Node.js 20.19+ 或 22.12+。
-    echo Node.js 版本过低。>> "%LOG_FILE%"
-    pause
-    exit /b 1
-  )
-  call :run "安装前端依赖" "npm install" || goto fail
-  call :run "构建前端页面" "npm run build" || goto fail
-)
-
-set DATA_DIR=data
-set USE_SAMPLE_DATA=true
-start "" cmd /c "timeout /t 3 >nul && start http://127.0.0.1:8000"
-python -m uvicorn backend.app:app --host 127.0.0.1 --port 8000
+echo 使用 Python：%PYTHON_CMD%
+echo 使用 Python：%PYTHON_CMD% >> "%LOG_FILE%"
+%PYTHON_CMD% "%CD%\scripts\local_launcher.py"
 if %ERRORLEVEL% NEQ 0 goto fail
-pause
 exit /b 0
 
-:run
-set "STEP=%~1"
-set "COMMAND=%~2"
-echo %STEP%...
-echo [%STEP%] %COMMAND% >> "%LOG_FILE%"
-cmd /c "%COMMAND%" >> "%LOG_FILE%" 2>&1
+:find_python
+set "PYTHON_CMD="
+where py >nul 2>nul
+if %ERRORLEVEL% EQU 0 (
+  py -3 -c "import sys; raise SystemExit(0 if sys.version_info >= (3, 9) else 1)" >nul 2>nul
+  if %ERRORLEVEL% EQU 0 (
+    set "PYTHON_CMD=py -3"
+    exit /b 0
+  )
+)
+
+where python >nul 2>nul
+if %ERRORLEVEL% EQU 0 (
+  python -c "import sys; raise SystemExit(0 if sys.version_info >= (3, 9) else 1)" >nul 2>nul
+  if %ERRORLEVEL% EQU 0 (
+    set "PYTHON_CMD=python"
+    exit /b 0
+  )
+)
+
+if exist "%LocalAppData%\Programs\Python\Python312\python.exe" (
+  set "PYTHON_CMD="%LocalAppData%\Programs\Python\Python312\python.exe""
+  exit /b 0
+)
+
+if exist "%ProgramFiles%\Python312\python.exe" (
+  set "PYTHON_CMD="%ProgramFiles%\Python312\python.exe""
+  exit /b 0
+)
+
+exit /b 0
+
+:install_python
+echo 未检测到 Python 3.9+，正在尝试自动安装 Python 3.12...
+echo 未检测到 Python 3.9+，正在尝试自动安装 Python 3.12。>> "%LOG_FILE%"
+where winget >nul 2>nul
 if %ERRORLEVEL% NEQ 0 (
-  echo %STEP% 失败，请查看 startup-log.txt。
-  echo [%STEP%] 失败。>> "%LOG_FILE%"
+  echo 当前 Windows 未找到 winget，无法自动安装 Python。
+  echo 请在打开的页面安装 Python 3.12，并勾选 Add python.exe to PATH。
+  echo 未找到 winget。>> "%LOG_FILE%"
+  start "" "https://www.python.org/downloads/windows/"
   exit /b 1
 )
-echo [%STEP%] 完成。>> "%LOG_FILE%"
+
+winget install --id Python.Python.3.12 -e --source winget --accept-package-agreements --accept-source-agreements >> "%LOG_FILE%" 2>&1
+if %ERRORLEVEL% NEQ 0 (
+  echo Python 自动安装失败，请查看 startup-log.txt。
+  exit /b 1
+)
 exit /b 0
 
 :fail

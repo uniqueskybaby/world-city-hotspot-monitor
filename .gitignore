@@ -8,6 +8,7 @@ design-qa.md
 __pycache__/
 *.pyc
 .env
+startup-log.txt
 data/*.db
 data/*.db-*
 !data/hotspots.db
