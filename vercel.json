@@ -1,0 +1,6 @@
+{
+  "buildCommand": "npm run export:demo && VITE_STATIC_DEMO=true npm run build:pages",
+  "outputDirectory": "dist",
+  "installCommand": "npm ci",
+  "framework": "vite"
+}

@@ -51,6 +51,8 @@ npm run package:local
 
 当前线上演示适合用 GitHub Pages 发布静态快照：先导出 `public/demo-data.json`，再用 `VITE_STATIC_DEMO=true npm run build:pages` 构建，并把 `dist` 发布到 `gh-pages` 分支。网页演示读取测试数据快照；完整采集、更新和后端 API 请使用本地运行或 Docker 部署。
 
+项目也内置了 Vercel 静态演示配置，Vercel 会执行 `npm run export:demo && VITE_STATIC_DEMO=true npm run build:pages`，并发布 `dist` 目录。Vercel 版本同样读取测试数据快照，不运行完整后端采集任务。
+
 ```bash
 cp .env.example .env
 docker compose up -d --build

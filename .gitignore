@@ -13,3 +13,5 @@ data/*.db
 data/*.db-*
 !data/hotspots.db
 .DS_Store
+.vercel
+.env.local
